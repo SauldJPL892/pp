@@ -49,15 +49,9 @@ a{
 p.TTT{
 	color: rgb(17, 94, 1);
 }
-img{
-	width: 100px;
-	height: 100px;
-	border-radius: 10%;
-	box-shadow:black;
-}
 table{
 	border-collapse: collapse;
-	width:100%;
+	width: 100%;
 	margin-bottom: 20px;
 }
 tr, td{
@@ -65,5 +59,12 @@ tr, td{
 	padding: 8px;
 }
 th{
-	background-color: orange;
+	background-color: blue;
+}
+tr:nth-child(even){
+	background-color: black;
+}
+img{
+	width: 100px;
+	height: 100px;
 }
